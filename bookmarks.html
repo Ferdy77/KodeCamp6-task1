@@ -16,7 +16,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse  justify-content-between" id="navbarSupportedContent">
-        <ul class="navbar-nav me-5 mb-2 mb-lg-0 order-2">
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Create an Event</a>
           </li>
@@ -24,7 +24,7 @@
             <a class="nav-link" href="#">Auction House</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bookmarks</a>
+            <a class="nav-link" href="createEvent.html">Bookmarks</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,19 +38,20 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
-          </li>
-          </ul>
-          <ul class="navbar-nav search-field">
-            <span class="search-img"><img src="./images/search-solid.svg" alt=""></span>
-            <input class="form-control w-100 me-2 placeholder-txt" type="search" placeholder="Search" aria-label="Search">
-          </ul>  
         </ul>
       </div>
     </div>
   </nav>
-
+  <div class="container">
+    <h3 class="my-3 ps-5 ms-5">Bookmarks</h3>
+      <div class="text-center my-5">
+        <div class="msg-box">
+          <img class="bookmark-img my-4" src="./images/bookmark-vector.png" alt="">
+          <h4 class="fs-6">You have no bookmarks yet. Bookmark vendors to view later</h4>
+          <button class="btn btn-primary my-5 fs-6 px-5 py-1">Explore</button>
+        </div>
+      </div>
   </div>
-  <!-- <script src="./script/all.min.js"></script> -->
   <script src="./script/bootstrap.bundle.min.js"></script>
 </body>
 </html>

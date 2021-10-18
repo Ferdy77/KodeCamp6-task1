@@ -8,12 +8,9 @@ form {
   position: relative;
 }
 
-ul .search-img img {
-  position: absolute;
-  height: 15px;
+.container-fluid img {
+  height: 42px;
   width: auto;
-  margin-top: 7px;
-  padding-left: 5px;
 }
 
 ul .placeholder-txt {
@@ -24,11 +21,6 @@ ul .placeholder-txt {
   height: 35px;
 }
 
-.ellipse3-img img {
-  height: 100px;
+.bookmark-img  {
+  height: 80px !important;
 }
-
-.form-control input {
-  width: 40%;
-}
-
